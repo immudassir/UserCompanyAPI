@@ -57,7 +57,7 @@ builder.Services.AddControllers(option => {
        {
            Duration = 30
        });
-    option.ReturnHttpNotAcceptable=true;
+    //option.ReturnHttpNotAcceptable=true;
 })
     .AddNewtonsoftJson(options =>
     {
